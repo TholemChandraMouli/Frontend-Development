@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+  <div>
+
+    <h1>Sign Up Details</h1>
+    <div>
+        <form>
+            <lable>Full Name :</lable>
+            <input type="text" placeholder="Enter Name">
+    <br><br>
+            <lable>Date_Of_Birth :</lable>
+            <input type="date">
+            <br><br>
+            <lable>Age :</lable>
+            <input type="number" placeholder="Enter Age">
+            <br><br>
+            <lable>College Name</lable>
+            <input type="text" placeholder="College Name">
+            <br><br>
+            <lable>Phone Number</lable>
+            <input type="number" placeholder="Mobile Number">
+
+
+            <fieldset style="width:15%">
+            <legend>Gender:</legend>
+            <input type="radio" id="male"
+            name="gender" value="male" required/>
+            <lable for ='male'>Male</lable>
+            <br>
+            <input type="radio" id="male"
+            name="gender" value="Female" required/>
+            <lable for ='Female'>Female</lable>
+            </fieldset>
+            <br><br>
+            <fieldset style="width:15%">
+                <legend>Skills:</legend>
+                <input type="checkbox" id="python"
+                name="python" value="python" required/>
+                <lable for ='python'>python</lable>
+                <input type="checkbox" id="java"
+                name="java" value="java" required/>
+                <lable for ='java'>java</lable>
+                <br>
+                <input type="checkbox" id="html"
+                name="html" value="html" required/>
+                <lable for ='html'>html</lable>
+                <br>
+                <input type="checkbox" id="css"
+                name="css" value="css" required/>
+                <lable for ='css'>css</lable>
+                <lable></lable>
+                </fieldset>
+                <br>
+                <lable > Role :</lable>
+                <select id ='Role' name="Student Role">
+                    <required>
+                        <option value='student'> student</option>
+                        <option value="employee"> employee</option>
+                    </select>
+
+<br><br>
+                    <lable>Resume:</lable>
+                    <input type="file"
+                    id="resume"
+                    name="resume"
+                    accept=".pdf,.docx,.doc"
+                    required/>
+
+                <br>
+                    
+            <lable for ='email'>Email </lable>
+            <input type="email" id="email" >
+
+        </form>
+        </div>
+    </div>  
+</body>
+</html>
